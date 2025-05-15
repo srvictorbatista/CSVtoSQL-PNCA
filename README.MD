@@ -13,7 +13,7 @@
 O produto final é um script SQL compatível de forma rápida e automática. Que pode ser tanto subdividido em lotes, sem perder a atomicidade (o que lhe permite ajustar a saída à carga suportada do servidor), auditável (devido a sua fácil leitura, edição, endentação e compreensão).
 A saída também incorpora um **"CREATE IF NOT EXISTS"** estruturado de forma automática, recursiva e reversível. Portanto, segura. Garantindo que nenhum dado se perca, durante todo o processo. Mais detalhes de como isto ocorre, veremos no decorrer desta proposta.
 
-**Ambiente:**: O ambiente utilizado para desenvolvimento e testes foi **Python 3.10.11** e **PHP 8.2.28**. 
+**Ambiente**: O ambiente utilizado para desenvolvimento e testes foi **Python 3.10.11** e **PHP 8.2.28**. 
 Se preferir uma versão completa e pronta para uso, de todo o ambiente utilizado, em um único container docker. Você poderá usar o projeto **[TSMX-ETL](https://github.com/srvictorbatista/tsmx-etl)** ofertado pelo mesmo autor.
 
 
